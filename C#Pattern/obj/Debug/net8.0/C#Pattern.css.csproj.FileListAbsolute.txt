@@ -12,3 +12,4 @@ D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\refint\C#Pattern.css.dll
 D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.css.pdb
 D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.css.genruntimeconfig.cache
 D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\ref\C#Pattern.css.dll
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.css.sourcelink.json
