@@ -1,0 +1,14 @@
+D:\New\C#Pattern\C#Pattern\bin\Debug\net8.0\C#Pattern.exe
+D:\New\C#Pattern\C#Pattern\bin\Debug\net8.0\C#Pattern.deps.json
+D:\New\C#Pattern\C#Pattern\bin\Debug\net8.0\C#Pattern.runtimeconfig.json
+D:\New\C#Pattern\C#Pattern\bin\Debug\net8.0\C#Pattern.dll
+D:\New\C#Pattern\C#Pattern\bin\Debug\net8.0\C#Pattern.pdb
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.AssemblyInfoInputs.cache
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.AssemblyInfo.cs
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.csproj.CoreCompileInputs.cache
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.dll
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\refint\C#Pattern.dll
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.pdb
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\C#Pattern.genruntimeconfig.cache
+D:\New\C#Pattern\C#Pattern\obj\Debug\net8.0\ref\C#Pattern.dll
