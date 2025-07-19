@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/C#Pattern/CopilotIndices/17.13.441.19478
+/.vs/C#Pattern/DesignTimeBuild/.dtbcache.v2
+/.vs/C#Pattern/v17/DocumentLayout.backup.json
+/.vs/C#Pattern/v17/DocumentLayout.json
+/.vs/C#Pattern/FileContentIndex
+/.vs/C#Pattern/v17
+/C#Pattern/obj/Debug/net8.0/apphost.exe

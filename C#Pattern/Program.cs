@@ -1,15 +1,36 @@
 ﻿using System;
 using System.ComponentModel;
-//pattern2(4);
-//squarePattern(4);
+pattern2(4);
+squarePattern(4);
 alphabetpattern(4);
-//NoPattern(3);
+NoPattern(3);
 starPattern(4);
 pattern(4);
 noPattern(4);
 floyds(4);
 pattern1(4);
 pattern5(4);
+HellowMultiply();
+static void HellowMultiply()
+{
+    int num = 5;
+for(int i = 0; i <= num; i++)
+    {
+        for (int j = 1; j <= num; j++)
+        {
+            if (i == j || i+j == num + 1)
+            {
+                Console.Write("*");
+            }
+            else
+            {
+                Console.Write(" ");
+
+            }
+        }
+            Console.WriteLine();
+        }
+    }
 
 
 /*     1
@@ -31,6 +52,7 @@ for(int j = 1; j <= i; j++)
 for(int j = i - 1; j >= 1; j--)
         {
             Console.Write(j);
+          
         }
         Console.WriteLine();
     }
