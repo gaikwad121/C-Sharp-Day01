@@ -27,7 +27,8 @@ int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
 //ArrayCode.SearchEle(arr);
 //ArrayCode.secondLargest(arr);
 //ArrayCode.secondSmallestNum(arr);
-ArrayCode.remDuplicate(arr);
+//ArrayCode.remDuplicate(arr);
+ArrayCode.rotateArr(arr, 4);
 static void HellowMultiply()
 {
     int num = 5;

@@ -270,12 +270,33 @@ namespace C_Pattern
 
 					}
 				}
-					if (!flag)
-					{
-						Console.WriteLine(arr[i]);
-					}
+				if (!flag)
+				{
+					Console.WriteLine(arr[i]);
 				}
 			}
 		}
-	}
+		//Rotate array elements left or right by k positions.
+		public static void rotateArr(int[] arr, int k)
+		{
+			int n = arr.Length;
+			k = k % n; // handle k > n
+			int[] temp = new int[n];
 
+			for (int i = 0; i < n; i++)
+			{
+				temp[i] = arr[(i + k) % n]; // shift left by k
+			}
+
+			// copy back to original array
+			for (int i = 0; i < n; i++)
+			{
+				arr[i] = temp[i];
+			}
+			foreach (int a in arr)
+			{
+				Console.WriteLine(a);
+			}
+		}
+	}
+}
