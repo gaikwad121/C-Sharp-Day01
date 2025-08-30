@@ -1,5 +1,7 @@
-﻿using System;
+using C_Pattern;
+using System;
 using System.ComponentModel;
+/*
 pattern2(4);
 squarePattern(4);
 alphabetpattern(4);
@@ -11,6 +13,16 @@ floyds(4);
 pattern1(4);
 pattern5(4);
 HellowMultiply();
+ArrayCode.program();
+ArrayCode.displayArray();*/
+//ArrayCode.reverseOrder();
+int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
+//ArrayCode.reverseArray2(arr);
+//ArrayCode.average(arr);
+//ArrayCode.maxValue(arr);
+//ArrayCode.minValue(arr);
+//ArrayCode.ArrayAsInputValue();
+ArrayCode.evenOddCount(arr);
 static void HellowMultiply()
 {
     int num = 5;
@@ -146,6 +158,7 @@ void starPattern(int n)
         Console.WriteLine();
     }
 }
+
 /*
 1 2 3
 4 5 6
