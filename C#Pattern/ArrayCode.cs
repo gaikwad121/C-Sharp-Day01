@@ -156,6 +156,62 @@ namespace C_Pattern
 				}
 			}
 			Console.WriteLine($"Evene count : {countEven}, Odd count : {countOdd}");
+		}
+
+		//Sort an array in ascending and descending order without using built-in functions.
+		public static void ArrayAscOrDSC(int[] arr)
+		{
+			Console.WriteLine("Enter your choice (ASC or DSC):");
+			string choice = Console.ReadLine().ToUpper(); // Make input case-insensitive
+
+			if (choice != "ASC" && choice != "DSC")
+			{
+				Console.WriteLine("Invalid choice! Please enter ASC or DSC.");
+				return; // Exit the method
 			}
+
+			// Sorting using simple nested loops
+			for (int i = 0; i < arr.Length; i++)
+			{
+				for (int j = i + 1; j < arr.Length; j++)
+				{
+					if ((choice == "ASC" && arr[i] > arr[j]) || (choice == "DSC" && arr[i] < arr[j]))
+					{
+						int temp = arr[i];
+						arr[i] = arr[j];
+						arr[j] = temp;
+					}
+				}
+			}
+
+			Console.WriteLine($"Array sorted in {choice} order:");
+			foreach (int a in arr)
+			{
+				Console.WriteLine(a);
+			}
+		}
+		// Search for an element in an array using linear search.
+		public static void SearchEle(int[] arr)
+		{
+			int num = 5; // Number to search
+			int count = 0;
+
+			for (int i = 0; i < arr.Length; i++)
+			{
+				if (arr[i] == num)
+				{
+					count++;
+				}
+			}
+
+			if (count > 0)
+			{
+				Console.WriteLine($"The number {num} is found {count} time(s) in the array.");
+			}
+			else
+			{
+				Console.WriteLine($"The number {num} is not found in the array.");
+			}
+		}
 	}
 }

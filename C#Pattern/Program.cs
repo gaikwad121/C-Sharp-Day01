@@ -22,7 +22,9 @@ int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
 //ArrayCode.maxValue(arr);
 //ArrayCode.minValue(arr);
 //ArrayCode.ArrayAsInputValue();
-ArrayCode.evenOddCount(arr);
+//ArrayCode.evenOddCount(arr);
+ArrayCode.ArrayAscOrDSC(arr);
+ArrayCode.SearchEle(arr);
 static void HellowMultiply()
 {
     int num = 5;
