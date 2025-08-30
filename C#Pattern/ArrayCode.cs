@@ -213,5 +213,69 @@ namespace C_Pattern
 				Console.WriteLine($"The number {num} is not found in the array.");
 			}
 		}
+		public static void secondLargest(int[] arr)
+		{
+			int max = 0;
+			for (int i = 0; i < arr.Length; i++)
+			{
+				if (arr[i] > max)
+				{
+					max = arr[i];
+				}
+			}
+			int secondMax = 0;
+			for (int i = 0; i < arr.Length; i++)
+			{
+				if (arr[i] != max && arr[i] > secondMax)
+				{
+					secondMax = arr[i];
+				}
+			}
+			Console.WriteLine(secondMax);
+		}
+
+		public static void secondSmallestNum(int[] arr)
+		{
+			int min = int.MaxValue;
+			for (int i = 0; i < arr.Length; i++)
+			{
+				if (arr[i] < min)
+				{
+					min = arr[i];
+				}
+			}
+			int secondSmallest = int.MaxValue;
+			for (int i = 0; i < arr.Length; i++)
+			{
+				if (arr[i] != min && arr[i] < secondSmallest)
+				{
+					secondSmallest = arr[i];
+				}
+			}
+			Console.WriteLine(secondSmallest);
+		}
+
+		// Remove duplicate elements from an array.
+		public static void remDuplicate(int[] arr)
+		{
+			for (int i = 0; i < arr.Length; i++)
+			{
+				bool flag = false;
+				for (int j = 0; j < i; j++)
+				{
+					if (arr[i] == arr[j])
+					{
+						flag = true;
+						break;
+
+					}
+				}
+					if (!flag)
+					{
+						Console.WriteLine(arr[i]);
+					}
+				}
+			}
+		}
 	}
-}
+
