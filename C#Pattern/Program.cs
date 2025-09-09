@@ -17,6 +17,7 @@ ArrayCode.program();
 ArrayCode.displayArray();*/
 //ArrayCode.reverseOrder();
 int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
+string str = "hello world";
 //ArrayCode.reverseArray2(arr);
 //ArrayCode.average(arr);
 //ArrayCode.maxValue(arr);
@@ -28,7 +29,11 @@ int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
 //ArrayCode.secondLargest(arr);
 //ArrayCode.secondSmallestNum(arr);
 //ArrayCode.remDuplicate(arr);
-ArrayCode.rotateArr(arr, 4);
+//ArrayCode.rotateArr(arr, 4);
+//stringCodes.revString();
+//stringCodes.countChar();
+//stringCodes.removeDuplicateChar(str);
+stringCodes.WordCount();
 static void HellowMultiply()
 {
     int num = 5;

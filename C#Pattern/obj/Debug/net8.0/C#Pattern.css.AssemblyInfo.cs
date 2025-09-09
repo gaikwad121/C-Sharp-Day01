@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#Pattern.css")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d63ab939dfde53bf5146039a61230b65f33d318a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8eef00a625b670a13e06c6290897a41fef601a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#Pattern.css")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#Pattern.css")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
