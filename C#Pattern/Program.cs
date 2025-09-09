@@ -35,7 +35,9 @@ string str = "hello world";
 //stringCodes.removeDuplicateChar(str);
 //stringCodes.WordCount();
 //stringCodes.numCount();
-stringCodes.numDate();
+//stringCodes.numDate();
+//LambdaExpressionCode.LambdaExp();
+LambdaExpressionCode.sumOfAllIntger();
 static void HellowMultiply()
 {
     int num = 5;
