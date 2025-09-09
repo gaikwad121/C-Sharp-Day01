@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -52,11 +54,11 @@ namespace C_Pattern
 			Console.WriteLine("word count is : " + words.Length);
 		}
 
-		public static void  numCount()
+		public static void numCount()
 		{
 			string str = "Hello123Hell8976";
 			char[] ch = str.ToCharArray();
-			for(int i = 0; i < ch.Length; i++)
+			for (int i = 0; i < ch.Length; i++)
 			{
 				if (Char.IsDigit(ch[i]))
 				{
@@ -64,5 +66,17 @@ namespace C_Pattern
 				}
 			}
 		}
-	}
+		// Fix for CS1729: 'SimpleDateFormat' does not contain a constructor that takes 1 arguments
+		// The code is using Java-style date handling. In C#, use DateTime and DateTime.Parse, and DateTime.AddYears.
+		// Also, IDE0090: 'new' expression can be simplified is not applicable here since the code is being rewritten.
+
+		public static void numDate()
+		{
+			string dt = "2025-10-28";
+			DateTime date = DateTime.ParseExact(dt, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+			date = date.AddYears(3);
+			dt = date.ToString("yyyy-MM-dd");
+			Console.WriteLine(dt);
+		}
+		}
 }

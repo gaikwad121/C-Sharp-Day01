@@ -33,8 +33,9 @@ string str = "hello world";
 //stringCodes.revString();
 //stringCodes.countChar();
 //stringCodes.removeDuplicateChar(str);
-stringCodes.WordCount();
-stringCodes.numCount();
+//stringCodes.WordCount();
+//stringCodes.numCount();
+stringCodes.numDate();
 static void HellowMultiply()
 {
     int num = 5;
