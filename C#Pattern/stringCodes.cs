@@ -29,7 +29,7 @@ namespace C_Pattern
 			Console.WriteLine(ch.Length);
 		}
 
-		public  static void removeDuplicateChar(string str)
+		public static void removeDuplicateChar(string str)
 		{
 			char[] ch = str.ToCharArray();
 			HashSet<Char> hs = new HashSet<char>();
@@ -39,16 +39,30 @@ namespace C_Pattern
 
 				hs.Add(c);
 			}
-			foreach(char ch1 in hs){
+			foreach (char ch1 in hs)
+			{
 				Console.WriteLine(ch1);
 
 			}
 		}
-public static void WordCount()
+		public static void WordCount()
 		{
 			string str = "Hello world good morning";
 			string[] words = str.Split(' ');
 			Console.WriteLine("word count is : " + words.Length);
+		}
+
+		public static void  numCount()
+		{
+			string str = "Hello123Hell8976";
+			char[] ch = str.ToCharArray();
+			for(int i = 0; i < ch.Length; i++)
+			{
+				if (Char.IsDigit(ch[i]))
+				{
+					Console.Write(ch[i]);
+				}
+			}
 		}
 	}
 }
