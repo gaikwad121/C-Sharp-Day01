@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -53,16 +54,31 @@ namespace C_Pattern
 			Console.WriteLine(rev);
 		}
 
-        internal static void StringLength(string str)
-        {
-            str = str.Trim();
-            char[] ch = str.ToCharArray();
-            if (ch.Length != 0)
-                Console.WriteLine(ch.Length);
-            //string [] str1= str.Split(" ");
+		internal static void StringLength(string str)
+		{
+			str = str.Trim();
+			char[] ch = str.ToCharArray();
+			if (ch.Length != 0)
+				Console.WriteLine(ch.Length);
+			//string [] str1= str.Split(" ");
 
-            //int length = str1.Length;
-            //Console.WriteLine(length);
-        }
+			//int length = str1.Length;
+			//Console.WriteLine(length);
+		}
+
+		internal static BigInteger Factorial(int n)
+		{
+			if (n < 0)
+			{
+				throw new ArgumentException("Factorial is not defined for negative numbers.");
+			}
+
+			BigInteger fact = 1;
+			for (int i = 1; i <= n; i++)
+			{
+				fact *= i;
+			}
+			return fact;
+		}
 	}
 }

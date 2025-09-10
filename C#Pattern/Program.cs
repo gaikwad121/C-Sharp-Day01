@@ -42,7 +42,8 @@ int num = 987654321;
 //C_InterviewProgram.primeOrNot(8);
 //C_InterviewProgram.revString(str);
 //C_InterviewProgram.revNum(num);
-C_InterviewProgram.StringLength(str);
+//C_InterviewProgram.StringLength(str);
+Console.WriteLine(C_InterviewProgram.Factorial(5));
 static void HellowMultiply()
 {
     int num = 5;
