@@ -49,7 +49,11 @@ int num = 987654321;
 //C_InterviewProgram.sumOfNum();
 //C_InterviewProgram.evenOdd(num);
 //C_InterviewProgram.palindrome(str);
-Console.WriteLine(C_InterviewProgram.SwapCase(str));
+//Console.WriteLine(C_InterviewProgram.SwapCase(str));
+//Class1 obj = new Class1();
+//obj.Run(); // calls delegate , prints message
+C_InterviewProgram.add();
+C_InterviewProgram.EvenOdd();
 
 static void HellowMultiply()
 {

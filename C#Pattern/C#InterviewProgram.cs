@@ -127,7 +127,7 @@ namespace C_Pattern
 			{
 				Console.WriteLine("odd");
 			}
-	
+
 		}
 		internal static void palindrome(string str)
 		{
@@ -170,7 +170,19 @@ namespace C_Pattern
 
 			return new string(result);
 		}
+		public static void EvenOdd()
+		{
+			var isEven = (int x) => x % 2 == 0;
+			Console.WriteLine(isEven(4));
 
+		}
+		public static void add()
+		{
+			Func<int, int, int> add = (x, y) => x + y;
+			Console.WriteLine(add(7, 8));
+			var sum = (int x, int y) => x + y;
+			Console.WriteLine(sum(4, 5));
+
+		}
 	}
-
 }
