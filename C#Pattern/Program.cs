@@ -41,7 +41,8 @@ int num = 987654321;
 //LambdaExpressionCode.sumOfAllIntger();
 //C_InterviewProgram.primeOrNot(8);
 //C_InterviewProgram.revString(str);
-C_InterviewProgram.revNum(num);
+//C_InterviewProgram.revNum(num);
+C_InterviewProgram.StringLength(str);
 static void HellowMultiply()
 {
     int num = 5;

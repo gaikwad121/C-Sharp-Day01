@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,5 +52,17 @@ namespace C_Pattern
 			}
 			Console.WriteLine(rev);
 		}
+
+        internal static void StringLength(string str)
+        {
+            str = str.Trim();
+            char[] ch = str.ToCharArray();
+            if (ch.Length != 0)
+                Console.WriteLine(ch.Length);
+            //string [] str1= str.Split(" ");
+
+            //int length = str1.Length;
+            //Console.WriteLine(length);
+        }
 	}
 }
