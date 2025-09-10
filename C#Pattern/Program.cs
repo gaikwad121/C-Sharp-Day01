@@ -47,6 +47,7 @@ int num = 987654321;
 //Console.WriteLine(C_InterviewProgram.Factorial(5));
 C_InterviewProgram.swapNum();
 C_InterviewProgram.sumOfNum();
+C_InterviewProgram.evenOdd(num);
 static void HellowMultiply()
 {
     int num = 5;

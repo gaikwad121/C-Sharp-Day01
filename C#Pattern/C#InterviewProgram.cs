@@ -116,5 +116,17 @@ namespace C_Pattern
 			}
 			Console.WriteLine(sum);
 		}
+
+		internal static void evenOdd(int num)
+		{
+			if (num % 2 == 0)
+			{
+				Console.WriteLine("Even");
+			}
+			else
+			{
+				Console.WriteLine("odd");
+			}
+		}
 	}
 }
