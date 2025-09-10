@@ -45,9 +45,11 @@ int num = 987654321;
 //C_InterviewProgram.StringLength(str);
 //C_InterviewProgram.Fibonnaci(8);
 //Console.WriteLine(C_InterviewProgram.Factorial(5));
-C_InterviewProgram.swapNum();
-C_InterviewProgram.sumOfNum();
-C_InterviewProgram.evenOdd(num);
+//C_InterviewProgram.swapNum();
+//C_InterviewProgram.sumOfNum();
+//C_InterviewProgram.evenOdd(num);
+C_InterviewProgram.palindrome(str);
+
 static void HellowMultiply()
 {
     int num = 5;

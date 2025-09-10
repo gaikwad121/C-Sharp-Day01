@@ -127,6 +127,24 @@ namespace C_Pattern
 			{
 				Console.WriteLine("odd");
 			}
+	
+		}
+		internal static void palindrome(string str)
+		{
+			string rev = "";
+			string temp = str;
+			for(int i = str.Length - 1; i >= 0; i--)
+			{
+				rev = rev + str[i];
+			}
+			if (rev.Equals(temp))
+			{
+				Console.WriteLine("palindrome");
+			}
+			else
+			{
+				Console.WriteLine("not palindrome");
+			}
 		}
 	}
 }
