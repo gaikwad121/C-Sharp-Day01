@@ -48,7 +48,8 @@ int num = 987654321;
 //C_InterviewProgram.swapNum();
 //C_InterviewProgram.sumOfNum();
 //C_InterviewProgram.evenOdd(num);
-C_InterviewProgram.palindrome(str);
+//C_InterviewProgram.palindrome(str);
+Console.WriteLine(C_InterviewProgram.SwapCase(str));
 
 static void HellowMultiply()
 {

@@ -133,7 +133,7 @@ namespace C_Pattern
 		{
 			string rev = "";
 			string temp = str;
-			for(int i = str.Length - 1; i >= 0; i--)
+			for (int i = str.Length - 1; i >= 0; i--)
 			{
 				rev = rev + str[i];
 			}
@@ -146,5 +146,31 @@ namespace C_Pattern
 				Console.WriteLine("not palindrome");
 			}
 		}
+
+		internal static string SwapCase(string input)
+		{
+			char[] result = new char[input.Length];
+
+			for (int i = 0; i < input.Length; i++)
+			{
+				char c = input[i];
+				if (char.IsLower(c))
+				{
+					result[i] = char.ToUpper(c);
+				}
+				else if (char.IsUpper(c))
+				{
+					result[i] = char.ToLower(c);
+				}
+				else
+				{
+					result[i] = c; // keep digits, symbols, spaces unchanged
+				}
+			}
+
+			return new string(result);
+		}
+
 	}
+
 }
