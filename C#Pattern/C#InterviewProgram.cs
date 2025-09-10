@@ -80,5 +80,19 @@ namespace C_Pattern
 			}
 			return fact;
 		}
+		internal static void Fibonnaci(int n)
+		{
+			int a = 0, b = 1;
+			Console.Write(a+ " "+b);
+
+			for (int i = 0; i < n; i++)
+			{
+				int temp = a+b;
+				Console.Write(" " + temp);
+				a = b;
+				b = temp;
+			}
+			Console.WriteLine();
+		}
 	}
 }

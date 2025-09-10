@@ -43,6 +43,7 @@ int num = 987654321;
 //C_InterviewProgram.revString(str);
 //C_InterviewProgram.revNum(num);
 //C_InterviewProgram.StringLength(str);
+C_InterviewProgram.Fibonnaci(8);
 Console.WriteLine(C_InterviewProgram.Factorial(5));
 static void HellowMultiply()
 {
