@@ -83,16 +83,38 @@ namespace C_Pattern
 		internal static void Fibonnaci(int n)
 		{
 			int a = 0, b = 1;
-			Console.Write(a+ " "+b);
+			Console.Write(a + " " + b);
 
 			for (int i = 0; i < n; i++)
 			{
-				int temp = a+b;
+				int temp = a + b;
 				Console.Write(" " + temp);
 				a = b;
 				b = temp;
 			}
 			Console.WriteLine();
+		}
+
+		internal static void swapNum()
+		{
+			int a = 78;
+			int b = 34;
+			a = a * b;
+			b = a / b;
+			a = a / b;
+			Console.WriteLine(a + " " + b);
+		}
+		internal static void sumOfNum()
+		{
+			int num = 987654321;
+			int sum = 0;
+			while (num > 0)
+			{
+				int n = num % 10;
+				sum += n;
+				num /= 10;
+			}
+			Console.WriteLine(sum);
 		}
 	}
 }
