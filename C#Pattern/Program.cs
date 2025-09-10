@@ -18,6 +18,7 @@ ArrayCode.displayArray();*/
 //ArrayCode.reverseOrder();
 int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
 string str = "hello world";
+int num = 987654321;
 //ArrayCode.reverseArray2(arr);
 //ArrayCode.average(arr);
 //ArrayCode.maxValue(arr);
@@ -37,7 +38,10 @@ string str = "hello world";
 //stringCodes.numCount();
 //stringCodes.numDate();
 //LambdaExpressionCode.LambdaExp();
-LambdaExpressionCode.sumOfAllIntger();
+//LambdaExpressionCode.sumOfAllIntger();
+//C_InterviewProgram.primeOrNot(8);
+//C_InterviewProgram.revString(str);
+C_InterviewProgram.revNum(num);
 static void HellowMultiply()
 {
     int num = 5;

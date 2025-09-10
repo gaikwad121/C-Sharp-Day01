@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Pattern
+{
+	internal class C_InterviewProgram
+	{
+		public static void primeOrNot(int num)
+		{
+			bool result = false; // prime number
+			for (int i = 2; i < num / 2; i++)
+			{
+				if (num % i == 0)
+				{
+					result = true; // not prime number
+				}
+			}
+			if (result)
+			{
+				Console.WriteLine("Not prime num");
+			}
+			else
+			{
+				Console.WriteLine(" prime num");
+
+			}
+		}
+		internal static void revString(string str)
+		{
+			char[] ch = str.ToCharArray();
+			string rev = "";
+			for (int i = ch.Length - 1; i >= 0; i--)
+			{
+				rev = rev + ch[i];
+			}
+
+			Console.WriteLine(rev);
+		}
+
+
+		internal static void revNum(int num)
+		{
+			int rev = 0;
+			while (num > 0)
+			{
+				rev = rev * 10 + num % 10;
+				num /= 10;
+			}
+			Console.WriteLine(rev);
+		}
+	}
+}
