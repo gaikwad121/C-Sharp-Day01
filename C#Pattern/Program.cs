@@ -60,7 +60,8 @@ Encapsulation d = new Encapsulation();
 Console.WriteLine(d.get());
 Class3 obj = new Class3();
 obj.Duplicate();
-
+ArrayListProgram Arr = new ArrayListProgram();
+Arr.SortingArr();
 static void HellowMultiply()
 {
     int num = 5;
