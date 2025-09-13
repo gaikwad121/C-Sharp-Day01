@@ -12,7 +12,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C_Pattern
 {
-	public class ArrayCode
+	public abstract class ArrayCode
 	{
 		public static void program()
 		{
@@ -298,5 +298,5 @@ namespace C_Pattern
 				Console.WriteLine(a);
 			}
 		}
-	}
+		}
 }

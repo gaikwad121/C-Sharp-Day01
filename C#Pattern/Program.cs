@@ -54,6 +54,12 @@ int num = 987654321;
 //obj.Run(); // calls delegate , prints message
 C_InterviewProgram.add();
 C_InterviewProgram.EvenOdd();
+Encapsulation d = new Encapsulation();
+
+	d.set(102,"Jyoti");
+Console.WriteLine(d.get());
+Class3 obj = new Class3();
+obj.Duplicate();
 
 static void HellowMultiply()
 {
