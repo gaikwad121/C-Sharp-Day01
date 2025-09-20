@@ -52,6 +52,7 @@ int num = 987654321;
 //Console.WriteLine(C_InterviewProgram.SwapCase(str));
 //Class1 obj = new Class1();
 //obj.Run(); // calls delegate , prints message
+/*
 C_InterviewProgram.add();
 C_InterviewProgram.EvenOdd();
 Encapsulation d = new Encapsulation();
@@ -61,7 +62,8 @@ Console.WriteLine(d.get());
 Class3 obj = new Class3();
 obj.Duplicate();
 ArrayListProgram Arr = new ArrayListProgram();
-Arr.SortingArr();
+Arr.SortingArr();*/
+Class4.countSpecialCharDigit();
 static void HellowMultiply()
 {
     int num = 5;
