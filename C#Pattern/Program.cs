@@ -63,7 +63,8 @@ Class3 obj = new Class3();
 obj.Duplicate();
 ArrayListProgram Arr = new ArrayListProgram();
 Arr.SortingArr();*/
-Class4.countSpecialCharDigit();
+//Class4.countSpecialCharDigit();
+Class5.countCharSpDigit();
 static void HellowMultiply()
 {
     int num = 5;
