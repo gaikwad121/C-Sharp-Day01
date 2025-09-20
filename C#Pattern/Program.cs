@@ -66,6 +66,7 @@ Arr.SortingArr();*/
 //Class4.countSpecialCharDigit();
 //Class5.countCharSpDigit();
 reverseEachWordOfString.revWord();
+Class6.CapAndSmall();
 static void HellowMultiply()
 {
     int num = 5;
