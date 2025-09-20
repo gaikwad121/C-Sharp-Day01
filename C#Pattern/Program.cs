@@ -65,8 +65,9 @@ ArrayListProgram Arr = new ArrayListProgram();
 Arr.SortingArr();*/
 //Class4.countSpecialCharDigit();
 //Class5.countCharSpDigit();
-reverseEachWordOfString.revWord();
-Class6.CapAndSmall();
+//reverseEachWordOfString.revWord();
+//Class6.CapAndSmall();
+Class7.CapstoSmall();
 static void HellowMultiply()
 {
     int num = 5;
