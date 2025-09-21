@@ -86,6 +86,8 @@ Console.WriteLine(c.div());*/
 int[] ans = Class17.asc(arr);
 foreach(int a in ans)
  Console.WriteLine(a);
+int[] ans1 = Class17.dsc(arr);
+Console.WriteLine(string.Join(" ,", ans1));
 static void HellowMultiply()
 {
     int num = 5;
