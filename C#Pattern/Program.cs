@@ -77,8 +77,8 @@ Console.WriteLine(c.div());*/
 //checkPalindrome palindrome = new checkPalindrome(121);
 //Class10 c = new Class10(123698547);
 //Class11 class11 = new Class11(153);
-Class12 c = new Class12(23, 45);
-
+//Class12 c = new Class12(23, 45);
+Class13 c = new Class13(5);
 static void HellowMultiply()
 {
     int num = 5;
