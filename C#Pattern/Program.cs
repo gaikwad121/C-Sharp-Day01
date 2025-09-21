@@ -16,7 +16,7 @@ HellowMultiply();
 ArrayCode.program();
 ArrayCode.displayArray();*/
 //ArrayCode.reverseOrder();
-int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96};
+int [] arr = { 6, 5,4,3,2,1,8,10,12,56,96,6,2,1,1,4};
 string str = "hello world";
 int num = 987654321;
 //ArrayCode.reverseArray2(arr);
@@ -88,9 +88,10 @@ foreach(int a in ans)
  Console.WriteLine(a);
 int[] ans1 = Class17.dsc(arr);
 Console.WriteLine(string.Join(" ,", ans1));*/
-Console.WriteLine(Class18.maxNum(arr));
+/*Console.WriteLine(Class18.maxNum(arr));
 Console.WriteLine(Class18.minNum(arr));
-Console.WriteLine(Class18.thirdMinNum(arr));
+Console.WriteLine(Class18.thirdMinNum(arr));*/
+ Class19.duplicate(arr);
 
 
 static void HellowMultiply()
