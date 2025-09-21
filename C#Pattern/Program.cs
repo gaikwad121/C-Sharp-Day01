@@ -83,11 +83,12 @@ Console.WriteLine(c.div());*/
 //Class15 c = new Class15(100);
 //Class16 c = new Class16("gaikwad");
 //Class16 c1 = new Class16("madam");
-int[] ans = Class17.asc(arr);
+/*int[] ans = Class17.asc(arr);
 foreach(int a in ans)
  Console.WriteLine(a);
 int[] ans1 = Class17.dsc(arr);
-Console.WriteLine(string.Join(" ,", ans1));
+Console.WriteLine(string.Join(" ,", ans1));*/
+Console.WriteLine(Class18.maxNum(arr));
 static void HellowMultiply()
 {
     int num = 5;
