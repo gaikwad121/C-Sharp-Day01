@@ -91,7 +91,8 @@ Console.WriteLine(string.Join(" ,", ans1));*/
 /*Console.WriteLine(Class18.maxNum(arr));
 Console.WriteLine(Class18.minNum(arr));
 Console.WriteLine(Class18.thirdMinNum(arr));*/
- Class19.duplicate(arr);
+//Class19.duplicate(arr);
+Class20 n = new Class20("gaikwad");
 
 
 static void HellowMultiply()
