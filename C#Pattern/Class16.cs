@@ -14,6 +14,7 @@ namespace C_Pattern
 		{
 			this.name = name;
 			Console.WriteLine(stringRev());
+			palindrome();
 		}
 		public string stringRev()
 		{
@@ -23,6 +24,19 @@ namespace C_Pattern
 				rev = rev + name[i];
 			}
 			return rev;
+		}
+
+		public void palindrome()
+		{
+			string temp = name;
+			if (stringRev().Equals(temp))
+			{
+				Console.WriteLine("is palindrome number");
+			}
+			else
+			{
+				Console.WriteLine("not palindrome number");
+			}
 		}
 	}
 }
