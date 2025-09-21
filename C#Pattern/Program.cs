@@ -89,6 +89,10 @@ foreach(int a in ans)
 int[] ans1 = Class17.dsc(arr);
 Console.WriteLine(string.Join(" ,", ans1));*/
 Console.WriteLine(Class18.maxNum(arr));
+Console.WriteLine(Class18.minNum(arr));
+Console.WriteLine(Class18.thirdMinNum(arr));
+
+
 static void HellowMultiply()
 {
     int num = 5;
