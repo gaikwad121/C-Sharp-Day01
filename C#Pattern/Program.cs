@@ -80,7 +80,8 @@ Console.WriteLine(c.div());*/
 //Class12 c = new Class12(23, 45);
 //Class13 c = new Class13(5);
 //Class14 c = new Class14(96);
-Class15 c = new Class15(100);
+//Class15 c = new Class15(100);
+Class16 c = new Class16("gaikwad");
 static void HellowMultiply()
 {
     int num = 5;
