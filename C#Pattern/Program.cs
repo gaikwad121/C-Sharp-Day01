@@ -67,7 +67,14 @@ Arr.SortingArr();*/
 //Class5.countCharSpDigit();
 //reverseEachWordOfString.revWord();
 //Class6.CapAndSmall();
-Class7.CapstoSmall();
+//Class7.CapstoSmall();
+/*Class8 c = new Class8(9, 8);
+Console.WriteLine(c.add());
+Console.WriteLine(c.sub());
+Console.WriteLine(c.mul());
+Console.WriteLine(c.div());*/
+Class9 n = new Class9(9);
+
 static void HellowMultiply()
 {
     int num = 5;
