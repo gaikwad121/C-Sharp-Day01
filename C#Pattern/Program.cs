@@ -92,9 +92,9 @@ Console.WriteLine(string.Join(" ,", ans1));*/
 Console.WriteLine(Class18.minNum(arr));
 Console.WriteLine(Class18.thirdMinNum(arr));*/
 //Class19.duplicate(arr);
-Class20 n = new Class20("gaikwad");
-Class21 w = new Class21("Hello world i am jyoti mahadev gaikwad i am from solapur maharashtra");
-
+//Class20 n = new Class20("gaikwad");
+//Class21 w = new Class21("Hello world i am jyoti mahadev gaikwad i am from solapur maharashtra");
+Class22 c = new Class22(10);
 
 static void HellowMultiply()
 {
