@@ -102,7 +102,9 @@ string s = "HexAwarE";
 //Class24 c = new Class24(s);
 string s1 = "gaikwad";
 //Class25 c1 = new Class25(s1);
-Class26 c = new Class26(str1);
+//Class26 c = new Class26(str1);
+string c = "jyotigaikwad1234@gmail.com";
+Class27 d = new Class27(c);
 static void HellowMultiply()
 {
     int num = 5;
