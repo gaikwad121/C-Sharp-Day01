@@ -14,6 +14,7 @@ namespace C_Pattern
 		{
 			this.str = s;
 			changeCase();
+			changeCase2();
 		}
 		public void changeCase()
 		{
@@ -32,6 +33,23 @@ namespace C_Pattern
 				}
 			}
 			Console.WriteLine(newstr);
+		}
+		public void changeCase2()
+		{
+			string s = "";
+			char[] ch = str.ToCharArray();
+			foreach(char ch1 in ch)
+			{
+				if(ch1>=65 && ch1 <= 90)
+				{
+					s = s + ch1.ToString().ToLower();
+				}
+				else
+				{
+					s = s + ch1.ToString().ToUpper();
+				}
+			}
+			Console.WriteLine(s);
 		}
 			}
 		
