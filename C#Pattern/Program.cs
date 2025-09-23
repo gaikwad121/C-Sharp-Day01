@@ -94,7 +94,12 @@ Console.WriteLine(Class18.thirdMinNum(arr));*/
 //Class19.duplicate(arr);
 //Class20 n = new Class20("gaikwad");
 //Class21 w = new Class21("Hello world i am jyoti mahadev gaikwad i am from solapur maharashtra");
-Class22 c = new Class22(10);
+//Class22 c = new Class22(10);
+string str1 = "Hellow world i am jyoti gaikwad from solapur maharashtra";
+
+//Class23 r = new Class23(str1);
+string s = "HexAwarE";
+Class24 c = new Class24(s);
 
 static void HellowMultiply()
 {
