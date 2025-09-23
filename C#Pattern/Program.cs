@@ -104,7 +104,9 @@ string s1 = "gaikwad";
 //Class25 c1 = new Class25(s1);
 //Class26 c = new Class26(str1);
 string c = "jyotigaikwad1234@gmail.com";
-Class27 d = new Class27(c);
+//Class27 d = new Class27(c);
+string nm = "mad123dam67";
+Class28.numPrint(nm);
 static void HellowMultiply()
 {
     int num = 5;
