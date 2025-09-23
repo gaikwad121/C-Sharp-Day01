@@ -99,7 +99,9 @@ string str1 = "Hellow world i am jyoti gaikwad from solapur maharashtra";
 
 //Class23 r = new Class23(str1);
 string s = "HexAwarE";
-Class24 c = new Class24(s);
+//Class24 c = new Class24(s);
+string s1 = "gaikwad";
+Class25 c1 = new Class25(s1);
 
 static void HellowMultiply()
 {
