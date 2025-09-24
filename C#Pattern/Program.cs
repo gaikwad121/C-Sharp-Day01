@@ -107,7 +107,8 @@ string c = "jyotigaikwad1234@gmail.com";
 //Class27 d = new Class27(c);
 string nm = "mad123dam67";
 //Class28.numPrint(nm);
-Class29.demo();
+//Class29.demo();
+Class30.revWord();
 
 static void HellowMultiply()
 {
