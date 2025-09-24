@@ -108,8 +108,8 @@ string c = "jyotigaikwad1234@gmail.com";
 string nm = "mad123dam67";
 //Class28.numPrint(nm);
 //Class29.demo();
-Class30.revWord();
-
+//Class30.revWord();
+Class35.devideZero();
 static void HellowMultiply()
 {
     int num = 5;
