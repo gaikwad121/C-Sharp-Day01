@@ -111,11 +111,12 @@ string nm = "mad123dam67";
 //Class29.demo();
 //Class30.revWord();
 //Class35.devideZero();
-StudentApp student = new StudentApp("jyoti", 25, "s1-203");
+/*StudentApp student = new StudentApp("jyoti", 25, "s1-203");
 student.EnrollCourse("java");
 student.EnrollCourse("java");
 
-student.StudentInfo();
+student.StudentInfo();*/
+Class36.method1();
 static void HellowMultiply()
 {
     int num = 5;
