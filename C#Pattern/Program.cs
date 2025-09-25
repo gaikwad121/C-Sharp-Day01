@@ -117,7 +117,8 @@ student.EnrollCourse("java");
 
 student.StudentInfo();*/
 //Class36.method1();
-Class37.method2();
+//Class37.method2();
+Class38.method3();
 static void HellowMultiply()
 {
     int num = 5;
