@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CollegeManagemnetStudentApplication
 {
-	internal class StudentApp
+	public class StudentApp
 	{
 		private string name;
 		private int age;
@@ -29,18 +29,22 @@ namespace CollegeManagemnetStudentApplication
 		}
 		public void EnrollCourse(string course)
 		{
-			if (validateCourse(course))
-				if (!courses.Contains(course))
-				{
-					courses.Add(course);
-					Console.WriteLine("Course enrolled sucessfully.");
-				}
-				else
-				{
-					Console.WriteLine("alread enrolled course.");
+			if (!validateCourse(course))
+			{
+				Console.WriteLine("Invalid course.");
+				return;
+			}
 
-				}
+			if (courses.Contains(course))
+			{
+				Console.WriteLine("Already enrolled in this course.");
+				return;
+			}
+
+			courses.Add(course);
+			Console.WriteLine("Course enrolled successfully.");
 		}
+
 		public bool validateCourse(string course)
 		{
 			if (course.Equals("Java") || course.Equals("C#)"))

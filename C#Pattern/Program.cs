@@ -1,4 +1,5 @@
 using C_Pattern;
+using CollegeManagemnetStudentApplication;
 using System;
 using System.ComponentModel;
 /*
@@ -109,7 +110,12 @@ string nm = "mad123dam67";
 //Class28.numPrint(nm);
 //Class29.demo();
 //Class30.revWord();
-Class35.devideZero();
+//Class35.devideZero();
+StudentApp student = new StudentApp("jyoti", 25, "s1-203");
+student.EnrollCourse("java");
+student.EnrollCourse("java");
+
+student.StudentInfo();
 static void HellowMultiply()
 {
     int num = 5;
